@@ -1,7 +1,54 @@
 {% extends "_layout/base.html" %}
 
 {% block content %}
-
-<a href="/subscribe">Subscribe</a>
+<main class="row">
+    <div class="col-lg-8">
+        <section id="dummy">
+            <h2>Dummy is a MMORPG engine</h2>
+            <p>
+                The Dummy Project aims at building a minimalist,two-dimension, 
+                RPG Maker-like MMORPG Engine with its integrated map editor,servers,clients,and so on.
+            </p>
+        </section>
+        <section id="mmorpg">
+            <h2>What is a MMORPG ?</h2>
+            <p>
+                Basically, this acronym stands for Massive Multiplayer Online Roleplaying Game.
+                Quite popular nowadays, it is a roleplaying game when you can play with others
+                by solving quests,donjons through your characters thanks to its abilities
+            </p>
+        </section>
+        <section id="why">
+            <h2>Why DummyMeuporg ?</h2>
+            <p>
+                We love programming above everything (and we enjoy gaming, to be honest). We believe
+                that we can build something valuable through involving as mush software developers /
+                game addicts / news eager to learn as we can
+            </p>
+        </section>
+        <section id="howJoin">
+            <h2>How can I join the project ?</h2>
+            <p>
+                It is recommended to use Discord. We have a dedicated server for the project:
+                <a href="http://discord.gg/cXdU9Hs" target="_blank" rel="noopener noreferrer">discord</a>
+                because this is the place where we talk about the project,basically
+            </p>
+            <p>
+                The whole source are hosted on github : 
+                <a href="http://github.com/dummymeuporg" target="_blank" rel="noopener noreferrer">GitHub</a>
+                If you are experimented enough you can still take a look on the repos and try to get you hands
+                dirty. If you don't know where to start get in touch with myself: <strong>@Ge0</strong>.
+            </p>
+        </section>
+    </div>
+    <aside class="col-lg-4">
+        <ul>
+            <li><a href="#dummy">Dummy is a MMORPG engine</a></li>
+            <li><a href="#mmorpg">What is a MMORPG ?</a></li>
+            <li><a href="#why">Why DummyMeuporg ?</a></li>
+            <li><a href="#howJoin">How can I Join the project</a></li>
+        </ul>
+    </aside>
+</main>
 
 {% endblock %}
