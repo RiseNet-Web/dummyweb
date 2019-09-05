@@ -5,7 +5,20 @@
     </head>
     
     <body>
-    
+        <header>
+            <h1>Dummy Project</h1>
+            <ul>
+                <li><a href="/subscribe">Register</a></li>
+                <li><a href="/login">Login</a></li>
+            </ul>
+            <nav>
+                <ul>
+                    <li><a href="/index">Home</a></li>
+                    <li><a href="/news">News</a></li>
+                    <li><a href="/forum">Forum</a></li>
+                </ul>
+            </nav>
+        </header>
     {% with messages = get_flashed_messages() %}
         {% if messages %}
             <ul class=flashes>
@@ -15,7 +28,7 @@
             </ul>
         {% endif %}
     {% endwith %}
-    
+
     {% block content %}
     {% endblock %}
     
